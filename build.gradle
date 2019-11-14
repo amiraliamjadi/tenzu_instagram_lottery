@@ -1,0 +1,36 @@
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+group 'insta lottery'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+    jcenter()
+    
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.derby', name: 'derby', version: '10.15.1.3'
+    compile group: 'org.apache.derby', name: 'derbyshared', version: '10.15.1.3'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-alpha-3'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
+
+
+}
+
+javafx {
+    version = "13"
+    
+    modules = [ 'javafx.fxml' , 'javafx.controls' , 'javafx.graphics' , 'javafx.base']
+
+}
+
+mainClassName = 'gui.Main'

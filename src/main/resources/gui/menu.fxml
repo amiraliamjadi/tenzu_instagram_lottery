@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<StackPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MenuController">
+
+    <ImageView fx:id="backgroundImageView" preserveRatio="true"  >
+
+
+        <image>
+            <Image url="@background_image.jpg" backgroundLoading="true" >
+
+            </Image>
+
+        </image>
+
+    </ImageView>
+
+
+
+
+
+    <ImageView fx:id="startAnimationView" preserveRatio="true" visible="false">
+
+
+    </ImageView>
+
+
+
+
+
+
+
+    <StackPane fx:id="contentViewForChange">
+
+
+
+        <Button fx:id="start" defaultButton="true" onAction="#handleStartButtonAction" >
+
+            <StackPane.margin >
+                <Insets bottom="50"></Insets>
+            </StackPane.margin>
+
+            <graphic>
+                <ImageView fx:id="startButtonImageView" preserveRatio="true" >
+                    <image>
+                        <Image url="@start.png">
+
+                        </Image>
+                    </image>
+                </ImageView>
+            </graphic>
+
+
+        </Button>
+
+
+
+        <Button fx:id="catchData" defaultButton="true" onAction="#handleCatchDataButtonAction" >
+
+
+            <StackPane.margin >
+                <Insets top="270"></Insets>
+            </StackPane.margin>
+
+            <graphic>
+                <ImageView fx:id="catchDataButtonImageView" preserveRatio="true" >
+                    <image>
+                        <Image url="@catchdata.png">
+
+                        </Image>
+                    </image>
+                </ImageView>
+            </graphic>
+
+
+        </Button>
+
+
+        <Button fx:id="exit" alignment="CENTER" defaultButton="true" onAction="#handleExitButtonAction" textAlignment="CENTER" >
+
+            <StackPane.margin>
+                <Insets bottom="494" left="1410" />
+            </StackPane.margin>
+
+            <graphic>
+                <ImageView fx:id="exitButtonImageView" preserveRatio="true" >
+                    <image>
+                        <Image url="@exit.png">
+
+                        </Image>
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+
+
+
+        <Button fx:id="setting" defaultButton="true" onAction="#handleSettingButtonAction" alignment="CENTER"  >
+
+            <StackPane.margin>
+                <Insets top="503" left="1408" />
+            </StackPane.margin>
+
+            <graphic>
+                <ImageView fx:id="settingButtonImageView" preserveRatio="true" >
+                    <image>
+                        <Image url="@setting.png">
+
+                        </Image>
+                    </image>
+                </ImageView>
+            </graphic>
+
+        </Button>
+
+
+
+
+     </StackPane>
+
+
+    <stylesheets>
+        <URL value="@menu_style.css" />
+    </stylesheets>
+
+</StackPane>

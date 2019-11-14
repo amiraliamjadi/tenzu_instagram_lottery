@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.geometry.Insets?>
+<StackPane fx:id="startLotteryRootPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.StartLotteryController">
+
+
+    <ImageView fx:id="pannelWinnerImageView" preserveRatio="true" >
+        <image>
+            <Image url="@pannel_winner.png">
+
+            </Image>
+        </image>
+
+    </ImageView>
+
+
+
+    <ImageView fx:id="pannelImageView" preserveRatio="true" >
+        <image>
+            <Image url="@pannel.png">
+
+            </Image>
+        </image>
+
+    </ImageView>
+
+
+
+
+</StackPane>

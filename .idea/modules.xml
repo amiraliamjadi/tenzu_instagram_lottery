@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tenzu instagram lottery.iml" filepath="$PROJECT_DIR$/Tenzu instagram lottery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insta_lottery.iml" filepath="$PROJECT_DIR$/.idea/modules/insta_lottery.iml" group="insta_lottery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insta_lottery_main.iml" filepath="$PROJECT_DIR$/.idea/modules/insta_lottery_main.iml" group="insta_lottery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insta_lottery_test.iml" filepath="$PROJECT_DIR$/.idea/modules/insta_lottery_test.iml" group="insta_lottery" />
+    </modules>
+  </component>
+</project>

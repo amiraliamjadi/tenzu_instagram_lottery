@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.opentracing:opentracing-api:0.33.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing/opentracing-api/0.33.0/67336cfb9d93779c02e1fda4c87801d352720eda/opentracing-api-0.33.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing/opentracing-api/0.33.0/1e832af0a4b82803ba396f75b23767ecc1f4367c/opentracing-api-0.33.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
